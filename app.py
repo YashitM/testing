@@ -19,14 +19,14 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 """App Configuration"""
 
 SESSION_TIMEOUT = 60
-REDIRECT_URL = "http://34.219.188.123/"
+REDIRECT_URL = "xxx"
 
 class Auth:
     """Google Project Credentials"""
-    CLIENT_ID = ('59342058181-q1pdc4mtac3o45h27rbvncoa5ah06m5q.apps.googleusercontent.com')
+    CLIENT_ID = ('xxx')
 
-    CLIENT_SECRET = 'WKdb1qDKI4AQ-DDrOKyPnwzl'
-    REDIRECT_URI = 'http://ec2-34-221-15-125.us-west-2.compute.amazonaws.com:8081/gCallback'
+    CLIENT_SECRET = 'xxx'
+    REDIRECT_URI = 'xxx'
     AUTH_URI = 'https://accounts.google.com/o/oauth2/auth'
     TOKEN_URI = 'https://accounts.google.com/o/oauth2/token'
     USER_INFO = 'https://www.googleapis.com/userinfo/v2/me'
